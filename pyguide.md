@@ -122,3 +122,44 @@ def hello_foo_bar(
         you, need known, it):
     print 'hello'
 ```
+
+### 模块、类、函数名较长、参数较多情况
+
+> 错误示范：由于函数名较长，参数换行后前导空格太多，可读性差
+
+```
+# module name "funny_module.py"
+def this_is_a_very_long_function_name_of_hello_foo_bar(god, says, that,
+                                                       awesome, people,
+                                                       doing):
+    print 'hello'
+
+
+# module demo client
+import funny_module
+
+
+funny_module.this_is_a_very_long_function_name_of_hello_foo_bar("Jack Ma",
+                                                                "said",
+                                                                "i",
+                                                                "have",
+                                                                "a",
+                                                                "dream")
+```
+
+> 正确示范
+
+```
+# module name "funny_module.py"
+def this_is_a_very_long_function_name_of_hello_foo_bar(
+        god, says, that, awesome, people, doing):
+    print 'hello'
+
+
+# module demo client
+import funny_module
+
+
+funny_module.this_is_a_very_long_function_name_of_hello_foo_bar(
+    "Jack Ma", "said", "i", "have", "a", "dream")
+```
