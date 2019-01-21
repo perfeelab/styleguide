@@ -82,8 +82,8 @@ def hello_foo_bar(god, says, that, awesome, people, doing, stupid, things, alway
 > 正确示范
 
 ```
-def hello_foo_bar(
-        god, says, that, awesome, people, doing, stupid, things, always):
+def hello_foo_bar(god, says, that, awesome, people, doing, stupid,
+                  things, always):
     print 'hello'
 ```
 
@@ -113,7 +113,7 @@ def hello_foo_bar(
 ```
 # 一般换行写法
 def hello_foo_bar(god, says, that, awesome, people, doing, stupid,
-                      things, always):
+                  things, always):
     print 'hello'
                       
 # 左括号换行写法，适用于参数特别多的情况
