@@ -16,6 +16,14 @@
 > 英文原文：https://github.com/google/styleguide/blob/gh-pages/pyguide.md  
 > 中文译文：https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/
 
+## IDE/编辑器集成指南
+> pycharm: 基于 autopep8 库  
+> https://github.com/hscgavin/autopep8-on-pycharm  
+> https://segmentfault.com/a/1190000005816556  
+>
+> vim: 基于 flake9-vim 插件  
+> https://github.com/andviro/flake8-vim
+
 ## 特别说明
 > 1. 从规约颁布即日起，所有代码必须通过PEP8检查器（编辑器插件）检验后方可提交
 > 2. 之前已有各项目代码在合适时机进行改造以符合规范
