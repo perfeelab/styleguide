@@ -128,14 +128,14 @@ def hello_foo_bar(
 > 错误示范：由于函数名较长，参数换行后前导空格太多，可读性差
 
 ```
-# module name "funny_module.py"
+# module "funny_module.py"
 def this_is_a_very_long_function_name_of_hello_foo_bar(god, says, that,
                                                        awesome, people,
                                                        doing):
     print 'hello'
 
 
-# module demo client
+# module "demo.py"
 import funny_module
 
 
